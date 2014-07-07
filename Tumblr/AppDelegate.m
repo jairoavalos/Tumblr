@@ -15,10 +15,14 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    
+  
+    // Set root view to be tab bar
     self.window.rootViewController = [[TabBarViewController alloc] init];
+  
+    // Set status bar to be white
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
     
-    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.backgroundColor = [UIColor colorWithRed:51 green:70 blue:93 alpha:1];
     [self.window makeKeyAndVisible];
     return YES;
 }

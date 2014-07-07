@@ -9,6 +9,8 @@
 #import "HomeViewController.h"
 
 @interface HomeViewController ()
+@property (strong, nonatomic) IBOutlet UIScrollView *homeScrollView;
+@property (strong, nonatomic) IBOutlet UIImageView *homeView;
 
 @end
 
@@ -27,6 +29,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+  
+  self.homeScrollView.contentSize = CGSizeMake(self.view.frame.size.width, self.homeView.frame.size.height + 1);
 }
 
 - (void)didReceiveMemoryWarning

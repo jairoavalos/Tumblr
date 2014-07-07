@@ -9,6 +9,8 @@
 #import "SearchViewController.h"
 
 @interface SearchViewController ()
+@property (strong, nonatomic) IBOutlet UIScrollView *searchScrollView;
+@property (strong, nonatomic) IBOutlet UIImageView *searchView;
 
 @end
 
@@ -27,6 +29,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+  
+  self.searchScrollView.contentSize = CGSizeMake(self.view.frame.size.width, self.searchView.frame.size.height + 1);
 }
 
 - (void)didReceiveMemoryWarning

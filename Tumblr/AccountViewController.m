@@ -9,6 +9,8 @@
 #import "AccountViewController.h"
 
 @interface AccountViewController ()
+@property (strong, nonatomic) IBOutlet UIScrollView *accountScrollView;
+@property (strong, nonatomic) IBOutlet UIImageView *accountView;
 
 @end
 
@@ -27,6 +29,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+  
+  self.accountScrollView.contentSize = CGSizeMake(self.view.frame.size.width, self.accountView.frame.size.height + 1);
 }
 
 - (void)didReceiveMemoryWarning

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4EC30CD0-FF67-451B-AD2D-18E5A618C747</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Tumblr</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>43AC84D9-52EF-4557-A164-03C6FD9D683A</key>
+		<string>https://github.com/jairoavalos/Tumblr.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Tumblr.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>43AC84D9-52EF-4557-A164-03C6FD9D683A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jairoavalos/Tumblr.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>43AC84D9-52EF-4557-A164-03C6FD9D683A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>43AC84D9-52EF-4557-A164-03C6FD9D683A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Tumblr</string>
+		</dict>
+	</array>
+</dict>
+</plist>
