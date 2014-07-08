@@ -8,6 +8,7 @@
             <connections>
                 <outlet property="accountTabBarButton" destination="F1g-cO-sGn" id="Iz7-MY-zbe"/>
                 <outlet property="contentView" destination="RaD-cf-ook" id="6i9-zV-lSB"/>
+                <outlet property="explorePopover" destination="nBl-pL-Y1B" id="5bh-Yq-Bo3"/>
                 <outlet property="homeTabBarButton" destination="RqT-7r-fll" id="lUT-5Z-D4C"/>
                 <outlet property="searchTabBarButton" destination="1rp-XW-Hb9" id="TrC-15-6VH"/>
                 <outlet property="statusBarBackground" destination="oul-ug-CAT" id="e5C-TR-kDE"/>
@@ -91,6 +92,10 @@
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <color key="backgroundColor" red="0.2196078431372549" green="0.29019607843137252" blue="0.37647058823529411" alpha="1" colorSpace="calibratedRGB"/>
                 </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="searchTooltip" id="nBl-pL-Y1B">
+                    <rect key="frame" x="10" y="464" width="171" height="62"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
             </subviews>
             <color key="backgroundColor" red="0.20000000000000001" green="0.27450980392156865" blue="0.36470588235294116" alpha="1" colorSpace="calibratedRGB"/>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
@@ -103,6 +108,7 @@
         <image name="compose_button" width="50" height="35"/>
         <image name="home_icon" width="35" height="35"/>
         <image name="home_selected_icon" width="35" height="35"/>
+        <image name="searchTooltip" width="171" height="62"/>
         <image name="search_icon" width="35" height="35"/>
         <image name="search_selected_icon" width="35" height="35"/>
         <image name="trending_icon" width="35" height="35"/>

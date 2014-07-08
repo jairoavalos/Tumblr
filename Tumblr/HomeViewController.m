@@ -7,11 +7,13 @@
 //
 
 #import "HomeViewController.h"
+#import "LoginViewController.h"
 
 @interface HomeViewController ()
 @property (strong, nonatomic) IBOutlet UIScrollView *homeScrollView;
 @property (strong, nonatomic) IBOutlet UIImageView *homeView;
 
+- (IBAction)loginPressed:(id)sender;
 @end
 
 @implementation HomeViewController
@@ -39,4 +41,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)loginPressed:(id)sender {
+  LoginViewController *loginVC = [[LoginViewController alloc] init];
+  [self presentViewController:loginVC animated:NO completion:nil];
+  //[self.view addSubview:loginVC.view];
+}
 @end

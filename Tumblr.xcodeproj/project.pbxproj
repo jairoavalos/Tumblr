@@ -29,6 +29,10 @@
 		860391BD196A40FF00D027EA /* AccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 860391BB196A40FF00D027EA /* AccountViewController.xib */; };
 		860391C1196A410D00D027EA /* TrendingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 860391BF196A410D00D027EA /* TrendingViewController.m */; };
 		860391C2196A410D00D027EA /* TrendingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 860391C0196A410D00D027EA /* TrendingViewController.xib */; };
+		86EFE5A8196BCE1B00B50411 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86EFE5A6196BCE1B00B50411 /* LoginViewController.m */; };
+		86EFE5A9196BCE1B00B50411 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86EFE5A7196BCE1B00B50411 /* LoginViewController.xib */; };
+		86EFE5AD196BD8A800B50411 /* ComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86EFE5AB196BD8A800B50411 /* ComposeViewController.m */; };
+		86EFE5AE196BD8A800B50411 /* ComposeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86EFE5AC196BD8A800B50411 /* ComposeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +77,12 @@
 		860391BE196A410D00D027EA /* TrendingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrendingViewController.h; sourceTree = "<group>"; };
 		860391BF196A410D00D027EA /* TrendingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrendingViewController.m; sourceTree = "<group>"; };
 		860391C0196A410D00D027EA /* TrendingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrendingViewController.xib; sourceTree = "<group>"; };
+		86EFE5A5196BCE1B00B50411 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		86EFE5A6196BCE1B00B50411 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		86EFE5A7196BCE1B00B50411 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		86EFE5AA196BD8A800B50411 /* ComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComposeViewController.h; sourceTree = "<group>"; };
+		86EFE5AB196BD8A800B50411 /* ComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComposeViewController.m; sourceTree = "<group>"; };
+		86EFE5AC196BD8A800B50411 /* ComposeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ComposeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +161,12 @@
 				860391BE196A410D00D027EA /* TrendingViewController.h */,
 				860391BF196A410D00D027EA /* TrendingViewController.m */,
 				860391C0196A410D00D027EA /* TrendingViewController.xib */,
+				86EFE5A5196BCE1B00B50411 /* LoginViewController.h */,
+				86EFE5A6196BCE1B00B50411 /* LoginViewController.m */,
+				86EFE5A7196BCE1B00B50411 /* LoginViewController.xib */,
+				86EFE5AA196BD8A800B50411 /* ComposeViewController.h */,
+				86EFE5AB196BD8A800B50411 /* ComposeViewController.m */,
+				86EFE5AC196BD8A800B50411 /* ComposeViewController.xib */,
 			);
 			path = Tumblr;
 			sourceTree = "<group>";
@@ -259,6 +275,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86EFE5A9196BCE1B00B50411 /* LoginViewController.xib in Resources */,
+				86EFE5AE196BD8A800B50411 /* ComposeViewController.xib in Resources */,
 				86039186196A34D700D027EA /* InfoPlist.strings in Resources */,
 				860391AE196A352900D027EA /* TabBarViewController.xib in Resources */,
 				8603918E196A34D700D027EA /* Images.xcassets in Resources */,
@@ -284,8 +302,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86EFE5A8196BCE1B00B50411 /* LoginViewController.m in Sources */,
 				860391C1196A410D00D027EA /* TrendingViewController.m in Sources */,
 				8603918C196A34D700D027EA /* AppDelegate.m in Sources */,
+				86EFE5AD196BD8A800B50411 /* ComposeViewController.m in Sources */,
 				860391AD196A352900D027EA /* TabBarViewController.m in Sources */,
 				860391B7196A40DC00D027EA /* SearchViewController.m in Sources */,
 				86039188196A34D700D027EA /* main.m in Sources */,
@@ -487,6 +507,7 @@
 				860391A6196A34D800D027EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		860391A7196A34D800D027EA /* Build configuration list for PBXNativeTarget "TumblrTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +516,7 @@
 				860391A9196A34D800D027EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
